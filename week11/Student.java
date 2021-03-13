@@ -15,7 +15,7 @@ public class Student {
     }
 
     //name
-    public boolean equals(Object ob) {
+    public boolean equalsname(Object ob) {
         if (ob instanceof Student) {
             return this.name == ((Student)ob).name;
         }
@@ -24,22 +24,22 @@ public class Student {
         }
     }
     //age
-    /*public boolean equals(Object ob) {
+    public boolean equalsage(Object ob) {
         if (ob instanceof Student) {
             return this.age == ((Student)ob).age;
         }
         else {
         return false;
         }
-    }*/
+    }
     //gpa
-    /*public boolean equals(Object ob) {
+    public boolean equalsgpa(Object ob) {
         if (ob instanceof Student) {
             return this.gpa == ((Student)ob).gpa;
         }
         else {
         return false;
         }
-    }*/
+    }
 
 }
